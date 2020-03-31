@@ -15,7 +15,7 @@ var transport = new (winston.transports.DailyRotateFile)({
 
 
 transport.on('rotate', function(oldFilename, newFilename) {
-  // do something fun
+  console.log("On rotation...")
 });
 
 var logger = winston.createLogger({

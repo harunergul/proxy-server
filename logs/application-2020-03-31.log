@@ -1,1 +1,36 @@
-{"message":"Hello World!","level":"info","timestamp":"2020-03-31T10:28:05.215Z"}
+{"message":"Error","level":"error","timestamp":"2020-03-31T11:26:41.399Z"}
+{"message":"Error: connect ECONNREFUSED 192.168.1.37:9005\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)","level":"error","timestamp":"2020-03-31T11:26:41.399Z"}
+{"message":"connect ECONNREFUSED 192.168.1.37:9005","level":"error","timestamp":"2020-03-31T11:26:41.399Z"}
+{"message":"Error","level":"error","timestamp":"2020-03-31T11:26:42.629Z"}
+{"message":"Error: connect ECONNREFUSED 192.168.1.37:9005\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)","level":"error","timestamp":"2020-03-31T11:26:42.629Z"}
+{"message":"connect ECONNREFUSED 192.168.1.37:9005","level":"error","timestamp":"2020-03-31T11:26:42.629Z"}
+{"message":"Error","level":"error","timestamp":"2020-03-31T11:26:43.219Z"}
+{"message":"Error: connect ECONNREFUSED 192.168.1.37:9005\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)","level":"error","timestamp":"2020-03-31T11:26:43.220Z"}
+{"message":"connect ECONNREFUSED 192.168.1.37:9005","level":"error","timestamp":"2020-03-31T11:26:43.220Z"}
+{"message":"Error","level":"error","timestamp":"2020-03-31T11:26:44.405Z"}
+{"message":"Error: connect ECONNREFUSED 192.168.1.37:9005\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)","level":"error","timestamp":"2020-03-31T11:26:44.405Z"}
+{"message":"connect ECONNREFUSED 192.168.1.37:9005","level":"error","timestamp":"2020-03-31T11:26:44.405Z"}
+{"message":"Error","level":"error","timestamp":"2020-03-31T11:26:44.747Z"}
+{"message":"Error: connect ECONNREFUSED 192.168.1.37:9005\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)","level":"error","timestamp":"2020-03-31T11:26:44.747Z"}
+{"message":"connect ECONNREFUSED 192.168.1.37:9005","level":"error","timestamp":"2020-03-31T11:26:44.747Z"}
+{"message":"Error","level":"error","timestamp":"2020-03-31T11:26:45.963Z"}
+{"message":"Error: connect ECONNREFUSED 192.168.1.37:9005\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)","level":"error","timestamp":"2020-03-31T11:26:45.963Z"}
+{"message":"connect ECONNREFUSED 192.168.1.37:9005","level":"error","timestamp":"2020-03-31T11:26:45.964Z"}
+{"message":"Error","level":"error","timestamp":"2020-03-31T11:27:36.209Z"}
+{"message":"Error: connect ECONNREFUSED 192.168.1.37:9005\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)","level":"error","timestamp":"2020-03-31T11:27:36.210Z"}
+{"message":"connect ECONNREFUSED 192.168.1.37:9005","level":"error","timestamp":"2020-03-31T11:27:36.210Z"}
+{"message":"Error","level":"error","timestamp":"2020-03-31T11:27:37.381Z"}
+{"message":"Error: connect ECONNREFUSED 192.168.1.37:9005\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)","level":"error","timestamp":"2020-03-31T11:27:37.381Z"}
+{"message":"connect ECONNREFUSED 192.168.1.37:9005","level":"error","timestamp":"2020-03-31T11:27:37.381Z"}
+{"message":"Error","level":"error","timestamp":"2020-03-31T11:27:38.061Z"}
+{"message":"Error: connect ECONNREFUSED 192.168.1.37:9005\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)","level":"error","timestamp":"2020-03-31T11:27:38.061Z"}
+{"message":"connect ECONNREFUSED 192.168.1.37:9005","level":"error","timestamp":"2020-03-31T11:27:38.061Z"}
+{"message":"Error","level":"error","timestamp":"2020-03-31T11:27:39.204Z"}
+{"message":"Error: connect ECONNREFUSED 192.168.1.37:9005\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)","level":"error","timestamp":"2020-03-31T11:27:39.204Z"}
+{"message":"connect ECONNREFUSED 192.168.1.37:9005","level":"error","timestamp":"2020-03-31T11:27:39.204Z"}
+{"message":"Error","level":"error","timestamp":"2020-03-31T11:27:40.442Z"}
+{"message":"Error: connect ECONNREFUSED 192.168.1.37:9005\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)","level":"error","timestamp":"2020-03-31T11:27:40.442Z"}
+{"message":"connect ECONNREFUSED 192.168.1.37:9005","level":"error","timestamp":"2020-03-31T11:27:40.443Z"}
+{"message":"Error","level":"error","timestamp":"2020-03-31T11:27:41.624Z"}
+{"message":"Error: connect ECONNREFUSED 192.168.1.37:9005\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)","level":"error","timestamp":"2020-03-31T11:27:41.625Z"}
+{"message":"connect ECONNREFUSED 192.168.1.37:9005","level":"error","timestamp":"2020-03-31T11:27:41.625Z"}
