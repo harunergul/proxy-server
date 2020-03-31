@@ -10,6 +10,8 @@
   "author": "Harun ERGUL",
   "license": "MIT",
   "dependencies": {
-    "http-proxy": "^1.18.0"
+    "http-proxy": "^1.18.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2"
   }
 }
