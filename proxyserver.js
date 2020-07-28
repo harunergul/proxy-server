@@ -4,6 +4,8 @@ let http = require("http");
 var winston = require('winston');
 require('winston-daily-rotate-file');
 
+let portNumber = 1980;
+
 var transport = new (winston.transports.DailyRotateFile)({
   filename: 'logs/application-%DATE%.log',
   datePattern: 'YYYY-MM-DD',
@@ -16,7 +18,6 @@ var transport = new (winston.transports.DailyRotateFile)({
 });
 
 transport.on('rotate', function(oldFilename, newFilename) {
-    // do something fun
     console.log("On rotation");
   });
   
@@ -45,14 +46,18 @@ proxy.on("error", function(err, req, res) {
 });
 
 let server = http.createServer(function(request, response) {
-  console.log("Request arrived");
-  proxy.web(request, response, { target: "http://192.168.1.37:9005" });
+  let cd = new Date();
+
+  let formatted_date = cd.getDate() + "-" +cd.getMonth() + "-" + cd.getFullYear()+" "+cd.getHours()+":"+cd.getMinutes()
+
+  console.log(formatted_date+ " request from " +request.headers.host);
+  let targetUrl = "http://"+request.headers.host;
+  proxy.web(request, response, { target: targetUrl });
 });
 
 server.on("uncaughtException", function(e) {
-  // Handle your error here
   console.log(e);
 });
 
-console.log("listening on port 80");
-server.listen(80);
+console.log("listening on port "+portNumber);
+server.listen(portNumber);
